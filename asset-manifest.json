@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/www.tinyappstack.com/static/css/main.e73b9968.css",
+    "main.js": "/www.tinyappstack.com/static/js/main.627fb083.js",
+    "index.html": "/www.tinyappstack.com/index.html",
+    "main.e73b9968.css.map": "/www.tinyappstack.com/static/css/main.e73b9968.css.map",
+    "main.627fb083.js.map": "/www.tinyappstack.com/static/js/main.627fb083.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e73b9968.css",
+    "static/js/main.627fb083.js"
+  ]
+}

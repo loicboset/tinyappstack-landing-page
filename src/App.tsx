@@ -28,7 +28,7 @@ function App() {
         <a
           href='https://github.com/orgs/Tiny-App-Stack/dashboard'
           target="_blank" rel="noreferrer"
-          className='absolute text-xl top-10 md:left-10 hover:underline'
+          className='absolute text-xl top-2 left-2 md:top-10 md:left-10 hover:underline'
         >
           Tiny App Stack
         </a>
