@@ -12,11 +12,11 @@ function App() {
     },
     {
       title: 'Participate as much as you want',
-      paragraph: 'Solving a ticket, coding a feature or building a complete app from scratch, do what you want to do.'
+      paragraph: 'Solving a ticket, coding a feature or building a complete app from scratch. Do what you do best.'
     },
     {
       title: 'Grow your skills',
-      paragraph: 'The main purpose is to build apps together and to learn from each other. You are not alone.'
+      paragraph: 'We build apps together. We learn from each other. You are not alone.'
     }
   ]
 
