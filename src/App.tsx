@@ -1,7 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSlack, faGithub } from '@fortawesome/free-brands-svg-icons'
-
 import Particles from './components/Particles';
+import MailchimpFormContainer from './components/MailchimpFormContainer';
 
 function App() {
 
@@ -23,7 +21,7 @@ function App() {
   return (
     <main>
 
-      <section className='flex flex-col items-center justify-center min-h-screen p-4 text-center text-white md:p-10'>
+      <section className='flex flex-col items-center justify-center p-4 mt-20 text-center text-white md:mt-0 md:min-h-screen md:p-10'>
         <Particles />
         <a
           href='https://github.com/orgs/Tiny-App-Stack/dashboard'
@@ -47,24 +45,7 @@ function App() {
 
         <div className='flex flex-col items-center justify-center mb-20 text-center'>
           <h3 className='mb-4 text-4xl'>Join the tribe!</h3>
-          <div className='space-x-10'>
-            <a
-              className='hover:text-red-600'
-              href='https://tinyappstack.slack.com'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FontAwesomeIcon icon={faSlack} className='text-4xl' />
-            </a>
-            <a
-              className='hover:text-gray-400'
-              href='https://github.com/orgs/Tiny-App-Stack/dashboard'
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} className='text-4xl' />
-            </a>
-          </div>
+          <MailchimpFormContainer />
         </div>
 
         <div className='flex flex-col items-start justify-center mx-10 mb-10 space-y-10 text-center lg:space-y-0 lg:mx-20 lg:space-x-20 lg:flex-row'>
